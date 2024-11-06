@@ -1,23 +1,3 @@
 basic.forever(function () {
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `)
-    basic.showLeds(`
-        . . . . .
-        . # # # .
-        . # # # .
-        . . # . .
-        . . . . .
-        `)
-    basic.showLeds(`
-        . # . # .
-        # # # # #
-        # # # # #
-        . # # # .
-        . . # . .
-        `)
+    basic.showString("Hello! Eric")
 })
