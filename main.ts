@@ -1,12 +1,7 @@
-input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Happy)
+input.onPinPressed(TouchPin.P0, function () {
+    basic.showNumber(randint(0, 10))
 })
-input.onButtonPressed(Button.AB, function () {
-    basic.showIcon(IconNames.Asleep)
-})
-input.onButtonPressed(Button.B, function () {
-    basic.showIcon(IconNames.Sad)
-})
+basic.showString("Love Meter")
 basic.forever(function () {
 	
 })
